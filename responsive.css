@@ -1,0 +1,53 @@
+.homer
+{
+	background-image: url("homer.jpg");
+    width:318px;
+    height:318px;
+    overflow:hidden;
+    position: relative;
+}
+
+@media (min-width: 601px )  {
+	.homer{    
+    background-position: top left;
+}
+}
+
+@media (min-width: 801px )  {
+	.homer{    
+    background-position: bottom left;
+}
+}
+
+@media (min-width: 1001px )  {
+	.homer{    
+    background-position: bottom right;
+}
+}
+
+@media (min-width: 1201px )  {
+	.homer{
+    background-position: bottom left;
+}
+}
+
+@media (min-width: 1401px )  {
+	.homer{
+    background-position: top right;
+}
+}
+
+@media (max-width: 600px) {
+	.homer{
+    background-position: top left;
+}
+}
+
+@media (min-width: 1601px) {
+	.homer{
+    background-position: top left;
+}
+}
+
+
+
